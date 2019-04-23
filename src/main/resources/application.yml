@@ -8,8 +8,8 @@ spring:
           uri: https://github.com/makeboluo000/conifg-repo
           username: makeboluo000@163.com
           password: make2828378
-          basedir: /Users/kema/IdeaProjects/config/basedir #远程配置文件拉取下来的存放路径
-  eureka:
-    client:
-      service-url:
-        defaultZone: http://localhost:8671/eureka/
+          basedir: D:\\java_idea\\sc_config\\basedir #远程配置文件拉取下来的存放路径
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8671/eureka/
